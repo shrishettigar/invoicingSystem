@@ -20,41 +20,41 @@ This is a simple invoicing application that allows customers to add products to 
  4. Laravel >= 10.0
 
 ## Installation
-1. Clone the Repository
+- Clone the Repository
 
-git clone https://github.com/shrishettigar/invoicingSystem.git
-cd invoicing-app
+    git clone https://github.com/shrishettigar/invoicingSystem.git
+    cd invoicing-app
 
-2. Install Dependencies
+- Install Dependencies
 
-Run the following command to install all necessary dependencies:
+    Run the following command to install all necessary dependencies:
 
-composer install
+        composer install
 
-3. Set Up DB
+- Set Up DB
 
-Configure the environment variables for your database connection in the .env file:
+    Configure the environment variables for your database connection in the .env file:
 
-DB_CONNECTION=sqlite
-DB_DATABASE=/path_to_your_database/database.sqlite
+        DB_CONNECTION=sqlite
+        DB_DATABASE=/path_to_your_database/database.sqlite
 
-4. Generate Application Key
+- Generate Application Key
 
-php artisan key:generate
+    php artisan key:generate
 
-5. Run Migrations
+- Run Migrations
 
-php artisan migrate
+    php artisan migrate
 
-6. Serve the Application
+- Serve the Application
 
-php artisan serve
+    php artisan serve
 
-OR 
+        OR 
 
-php -S localhost:8000 -t public/
+    php -S localhost:8000 -t public/
 
-7. End points
+- End points
 
-Download the collection file  <b>InvoiceApp.postman_collection </b> from main folder
+    Download the collection file  <b>InvoiceApp.postman_collection </b> from main folder
 
